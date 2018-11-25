@@ -28,4 +28,14 @@ func (pkg Package) Run() {
 	a.slicesOfNames()
 	a.sliceLiteral()
 	a.sliceDefaults()
+	a.lengthCapacity()
+	a.nilSlice()
+	a.useMake()
+	a.sliceOfSlice()
+	a.appendSlice()
+
+	fmt.Println(">>RANGES")
+	var r Range
+	r.rangePow()
+	r.rangeIndex()
 }
